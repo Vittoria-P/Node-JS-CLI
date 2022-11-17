@@ -21,6 +21,6 @@ export function getCodeCountry(data){
 
 export function displayHolidays(holidays) {
     for (let i = 0; i < holidays.length; i++){
-        console.log(holidays[i].localName);
+        console.log(holidays[i].localName + "   " + holidays[i].date + "   " + holidays[i].name);
     }
 }
